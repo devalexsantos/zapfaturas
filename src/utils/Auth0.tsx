@@ -12,7 +12,7 @@ export default function Auth0({children}: Auth0Props){
         domain={process.env.NEXT_PUBLIC_AUTH0_DOMAIN as string}
         clientId={process.env.NEXT_PUBLIC_AUTH0_CLIENT as string}
         authorizationParams={{
-        redirect_uri: "http://localhost:3000"
+        redirect_uri: "https://zapfaturas.com"
         }}
         useRefreshTokens={ true }
         cacheLocation="localstorage"
